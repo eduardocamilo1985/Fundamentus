@@ -1,22 +1,22 @@
-# 🤖 📊 Coletor de dados de empresas - site Fundamentous
+# 🤖 📊 Coletor de dados de empresas - site Fundamentus
 
 <!--ts-->
-* [Intrudução](#introducao)
+* [Introdução](#introducao)
 * [Objetivo](#objetivo)
 * [Tecnologias utilizadas](#tecnologia)
 * [Utilização/estrutura](#utilizacao)
 * [Links para consulta](#link)
 <!--te-->
 
-# <a name="introducao"></a>Intrudução
+# <a name="introducao"></a>Introdução
 
-O Site [Fundamentus](http://automationpractice.com/index) disponibiliza dados financeiros de diversas empresas listadas na Bolsa de valores.
+O Site [Fundamentus](https://www.fundamentus.com.br/) disponibiliza dados financeiros de diversas empresas listadas na Bolsa de valores.
 Além da situação financeira das empresas o mesmo site disponibiliza dados sobre o valor das cotações das ações
 (no caso a cotação do dia anterior, bem como máximas e mínimas das últimas 52 semanas).
 
 # <a name="objetivo"></a>Objetivo
 
-O objetivo desse mini projeto é coletar dados financeiros de empresas que estão disponíveis no site [Fundamentus](http://automationpractice.com/index)
+O objetivo desse mini projeto é coletar dados financeiros de empresas que estão disponíveis no site [Fundamentus](https://www.fundamentus.com.br/)
 reunindo-os em uma planilha Excel. A planilha Excel será gerada na pasta Meus documentos (isso pode ser alterado 
 na classe Parâmetros). 
 
@@ -78,7 +78,7 @@ A **package Page** contém o mapeamento de elementos do site.
 
 ## <a name="link"></a>Links para consulta
 
-[http://automationpractice.com/index](http://automationpractice.com/index)
+[https://www.fundamentus.com.br/](https://www.fundamentus.com.br/)
 
 [https://www.selenium.dev/documentation/webdriver/](https://www.selenium.dev/documentation/webdriver/)
 
