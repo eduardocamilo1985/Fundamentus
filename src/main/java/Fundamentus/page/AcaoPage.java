@@ -52,12 +52,15 @@ public class AcaoPage extends Basic {
 		return getTexto(By.xpath("//table[3]//tr[6]/td[2]"));
 	}
 	
-	public String vinte() {
+	public String vinteUm() {
 		return getTexto(By.xpath("//table[3]//tr[7]/td[2]"));
 	}
 	
-	public String dezenove() {
+	public String vinte() {
 		return getTexto(By.xpath("//table[3]//tr[8]/td[2]"));
+	}
+	public String dezenove() {
+		return getTexto(By.xpath("//table[3]//tr[9]/td[2]"));
 	}
 	
 	public String pvp() {

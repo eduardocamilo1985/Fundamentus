@@ -14,8 +14,10 @@ public class ColetarFundamentus {
     public static String dataCotacao[] = new String[acao.length];
     public static String mim[] = new String[acao.length];
     public static String max[] = new String[acao.length];
+    public static String dozeMeses[] = new String[acao.length];
     public static String trintaDias[] = new String[acao.length];
     public static String nesseAno[] = new String[acao.length];
+    public static String vinteUm[] = new String[acao.length];
     public static String vinte[] = new String[acao.length];
     public static String dezenove[] = new String[acao.length];
     public static String pvp[] = new String[acao.length];
@@ -44,7 +46,9 @@ public class ColetarFundamentus {
               mim[i] = acaoP.mim();
               max[i] = acaoP.max();
               trintaDias[i] = acaoP.trintaDias();
+              dozeMeses[i] = acaoP.dozeMeses();
               nesseAno[i] = acaoP.nesseAno();
+              vinteUm[i] = acaoP.vinteUm();
               vinte[i] = acaoP.vinte();
               dezenove[i] = acaoP.dezenove();
               pvp[i] = acaoP.pvp();

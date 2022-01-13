@@ -28,6 +28,7 @@ Os dados coletados são:
 - Mim 52 Semanas
 - Max 52 Semanas
 - Oscilação 30 dias
+- Oscilação Em 2022
 - Oscilação Em 2021
 - Oscilação Em 2020
 - Oscilação Em 2019

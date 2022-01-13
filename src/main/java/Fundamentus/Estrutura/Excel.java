@@ -50,6 +50,12 @@ public class Excel {
 		cell.setCellValue("30 dias");
 
 		cell = row.createCell(cellnum++);
+		cell.setCellValue("Ultimos 12 meses");
+
+		cell = row.createCell(cellnum++);
+		cell.setCellValue("Em 2022");
+
+		cell = row.createCell(cellnum++);
 		cell.setCellValue("Em 2021");
 
 		cell = row.createCell(cellnum++);
@@ -115,7 +121,13 @@ public class Excel {
 			cell.setCellValue(trintaDias[i]);
 
 			cell = row.createCell(cellnum++);
+			cell.setCellValue(dozeMeses[i]);
+
+			cell = row.createCell(cellnum++);
 			cell.setCellValue(nesseAno[i]);
+
+			cell = row.createCell(cellnum++);
+			cell.setCellValue(vinteUm[i]);
 
 			cell = row.createCell(cellnum++);
 			cell.setCellValue(vinte[i]);
